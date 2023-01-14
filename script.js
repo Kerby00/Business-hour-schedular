@@ -1,7 +1,6 @@
 
 var currentDayDisplayEl = $('#currentDay')
 var currenthour = dayjs().hour()
-console.log(currenthour)
 //This function adds current date using dayjs/////
 $(function () {
   var DisplayDay = dayjs().format('dddd, MMMM DD, YYYY');
